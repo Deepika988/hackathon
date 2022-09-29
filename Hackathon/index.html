@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="images/airplane-favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato&family=Poppins:ital,
+wght@0,300;0,400;1,600&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <title>Flight Search</title>
+    <link rel="stylesheet" href="css/styles.css">
+    
+</head>
+<body>
+    <header class="header-tab">
+        <img src="images/airplane-favicon.png" class="logo-img" alt="airlines logo"/>
+        <h1 class="website-name">Skytrip</h1>
+    </header>
+    <main>
+        <section class="body-content" id="body-content">
+           <div class="fill-details">
+               <h2>Find Your Flight</h2>
+               <div class="input-data">
+               <label  class="label-color">From</label>
+               <select id="from" class="input-fields">
+                <option></option>
+               </select>
+            </div>
+            <div class="input-data">
+               <label class="label-color">To</label>
+               <select id="to" class="input-fields">
+                <option></option>
+               </select>
+               </div>
+               <div class="input-data">
+               <label class="label-color">Departure</label>
+               <input type="date" id='datefield' class="input-fields" min="2000-01-01" max="2025-01-01"></input>
+               </div>
+               <div class="input-data">
+                <div class="input-data-fields">
+               <label class="label-color flex-part">Number of persons</label>
+               <label class="label-color flex-part">Type of Trip</label>
+            </div>
+            <div class="input-data-fields">
+               <input type="number" class="input-fields flex-part" min="0" max="10">
+               <select class="input-fields flex-part"><option></option></select>
+               </div>
+               </div>
+               <button class="input-fields search-btn uppercase-convert" id="search-btn">
+                Search for flight
+            </button>
+           </div>
+        </section>
+        <section class="flight-search-results" id="flight-search-results">
+            <div class="display-input-data">
+                <select class="display-field"><option></option></select>
+                <select class="display-field">
+                    <option></option>
+                   </select class="display-field">
+                   <i class="fas fa-arrows-alt-h"></i>
+                   <select class="display-field">
+                    <option></option>
+                   </select class="display-field">
+                   <input type="date" id='datefield' class="display-field" min="2000-01-01" max="2025-01-01"></input>
+                   <input type="number" class="display-field" min="0" max="10">
+                </div>
+            
+            <section class="search-results-body">
+                <div class="filters">
+                    <div class="filter-text d-flex">
+                        <p class="filter-text-element">FILTERS</p>
+                        <p class="clear">CLEAR ALL</p>
+                    </div>
+                    <details class="summary-element">
+                        <summary class="filter-element d-flex padd-20">
+                            <label class="label-data">Stops</label>
+                            <i class="fas fa-angle-down" aria-hidden="true"></i>
+                        </summary>
+                        <div class="summary-content">
+                            <input type="checkbox">
+                            <label>Non Stop</label><br><br>
+                            <input type="checkbox">
+                            <label>1 Stop</label><br><br>
+                            <input type="checkbox">
+                            <label>2 Stops</label><br><br>
+                        </div>
+                        </details>
+                        <details class="summary-element">
+                            <summary class="filter-element d-flex">
+                                <label class="label-data">Price</label>
+                                <i class="fas fa-angle-down" aria-hidden="true"></i>
+                            </summary>
+                            <div class="summary-content">
+                                <input type="range" min="3000" max="17000" value="500">
+                            </div>
+                            </details>
+                            <details class="summary-element">
+                                <summary class="filter-element d-flex">
+                                    <label class="label-data">Airlines</label>
+                                    <i class="fas fa-angle-down" aria-hidden="true"></i>
+                                </summary>
+                                <div class="summary-content">
+                                    <input type="checkbox">
+                            <label>Air Asia</label><br><br>
+                            <input type="checkbox">
+                            <label>Air India</label><br><br>
+                            <input type="checkbox">
+                            <label>Go First</label><br><br>
+                            <input type="checkbox">
+                            <label>Indigo</label><br><br>
+                            <input type="checkbox">
+                            <label>SpiceJet</label><br><br>
+                    
+                                </div>
+                                </details>
+                </div>
+                <div class="flights-information">
+                    <div class="one-flight-info">
+                        <img src="images/logo.png" alt="flight-img" class="flight-data flight-data-img">
+                        <p class="flight-data">name</p>
+                        <div class="arrival-details flight-data">
+                        <p>Arrival Time</p>
+                        <p>City</p>
+                    </div>
+                    <div class="departure-details flight-data">
+                        <p>Departure Time</p>
+                        <p>City</p>
+                    </div>
+                    <p class="flight-data">Price</p>
+                    <div class="flight-data">
+                    <button class="flight-data-button uppercase-conver">Book Now</button>
+                </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+    </main>
+    <script src="javascript/script.js"></script>
+</body>
+
+</html>

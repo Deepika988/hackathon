@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Air Asia",
+        "image":"../images/air-asia.png",
+    },
+    {
+        "name": "Air India",
+        "image":"../images/air-india.jfif",
+    },
+    {
+        "name": "Go First",
+        "image":"../images/go-first.jfif",
+    },
+    {
+        "name": "SpiceJet",
+        "image":"../images/spiceject.png",
+    },
+    {
+        "name": "Indigo",
+        "image":"../images/indigo.png",
+    }
+]

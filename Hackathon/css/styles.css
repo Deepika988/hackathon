@@ -1,0 +1,157 @@
+body{
+    font-family: 'Work Sans', sans-serif;
+    background-color: #F2F2F2;
+}
+.header-tab{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;;
+}
+.logo-img{
+    width: 40px;
+    height: 40px;
+}
+.website-name{
+    color: rgb(248, 209, 17);
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.body-content{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    height: 700px;
+    background-image: url("../images/flight.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.fill-details{
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    width: 450px;
+    height: fit-content;
+    border-radius: 1.875rem;
+    padding: 15px;
+    background-color:rgba(255,255,255,0.9);
+    margin-right: 1.25rem;
+}
+.input-data{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+.input-fields{
+    background-color: #ffffff;
+    border-radius:1.875rem;
+    padding: 15px;
+    border: 1px solid #f7f7f7;
+}
+.input-data-fields{
+    display: flex;
+    gap: 20px;
+}
+.flex-part{
+    flex: 1;
+}
+.label-color{
+    font-size: 14px;
+    color: gray;
+}
+.search-btn{
+    cursor: pointer;
+    background-color: rgb(248, 209, 17);
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 20px;
+}
+.search-btn:hover{
+    background-color:rgba(9, 73, 249, 0.7);
+}
+.uppercase-convert{
+    text-transform: uppercase;
+}
+.flight-search-results{
+    display: none;
+    gap: 30px;
+    flex-direction: column;
+}
+.display-input-data{
+    display: flex;
+    flex-direction: row;
+    gap:20px;   
+}
+.display-field{
+    flex: 1;
+    padding: 10px;
+}
+.search-results-body{
+    display: flex;
+    gap: 20px;
+}
+.filters{
+    background-color:#ffffff ;
+    flex: 1;
+    height: fit-content;
+    border-radius: 4px;
+}
+.filter-text{
+    border-bottom: 1px solid rgb(192, 192, 192, .3);
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.filter-text .filter-text-element {
+    flex: 1;
+    font-weight: 600;
+}
+.filter-text .clear {
+    color: #B7BDC1;
+    font-size: 13px;
+}
+.summary-element{
+    border-bottom: 1px solid rgb(192, 192, 192, .3);
+    padding: 20px 20px 20px 20px;
+}.summary-content{
+    padding-top: 10px;
+}
+.label-data{
+    flex: 24;
+}
+.fa-angle-down{
+    flex: 1;
+    cursor: pointer;  
+}
+details[open] .fa-angle-down {
+    transform: rotate(180deg);
+}
+.d-flex{
+    display: flex;
+}
+.flights-information{
+    display: flex;
+    flex-direction: column;
+    flex: 4;
+}
+.one-flight-info{
+    display: flex;
+    background-color: #ffffff;
+}
+.flight-data{
+    flex: 1;
+    text-align: center;
+    align-self: center;
+}
+.flight-data-img{
+    width: 35px;
+    height: 35px;
+}
+.flight-data-button{
+    background-color: rgba(9, 73, 249, 0.7);
+    color: #ffffff;
+    border: none;
+    padding: 10px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
