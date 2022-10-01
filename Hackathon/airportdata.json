@@ -1,0 +1,1127 @@
+[
+    {
+        "name": "Air Asia",
+        "image": "../images/air-asia1.png",
+        "id": "AA001",
+        "stops": "Non Stop",
+        "arrival_time": [
+            "9:30 AM"
+        ],
+        "departure_time": [
+            "12:00 PM"
+        ],
+        "source": [
+            "chennai"
+        ],
+        "destination": [
+            "mumbai"
+        ],
+        "price": 2000,
+        "duration": "2.5"
+    },
+    {
+        "name": "Air Asia",
+        "image": "../images/air-asia1.png",
+        "id": "AA002",
+       "stops": "1 Stop",
+        "arrival_time": [
+            "7:30 AM",
+            "9:30 AM"
+        ],
+        "departure_time": [
+            "10:00 AM",
+            "12:00 PM"
+        ],
+        "source": [
+            "chennai",
+            "banglore"
+        ],
+        "destination": [
+            "banglore",
+            "mumbai"
+        ],
+        "price": 3000,
+        "duration": "2"
+    },
+    {
+        "name": "Air Asia",
+        "image": "../images/air-asia1.png",
+        "id": "AA003",
+        "stops": "Non Stop",
+        "arrival_time": [
+            "9:30 AM"
+        ],
+        "departure_time": [
+            "12:00 PM"
+        ],
+        "source": [
+            "mumbai"
+        ],
+        "destination": [
+            "chennai"
+        ],
+        "price": 5000,
+        "duration": "2.5"
+    },
+    {
+        "name": "Air Asia",
+        "image": "../images/air-asia1.png",
+        "id": "AA004",
+       "stops": "1 Stop",
+        "arrival_time": [
+            "10:30 AM",
+            "12:30 PM"
+        ],
+        "departure_time": [
+            "1:00 PM",
+            "3:00 PM"
+        ],
+        "source": [
+            "mumbai",
+            "banglore"
+        ],
+        "destination": [
+            "banglore",
+            "chennai"
+        ],
+        "price": 2000,
+        "duration": "2"
+    },
+    {
+        "name": "Air Asia",
+        "image": "../images/air-asia1.png",
+        "id": "AA005",
+        "stops": "Non Stop",
+        "arrival_time": [
+            "9:30 AM"
+        ],
+        "departure_time": [
+            "12:00 PM"
+        ],
+        "source": [
+            "banglore"
+        ],
+        "destination": [
+            "hyderabad"
+        ],
+        "price": 5000,
+        "duration": "2.5"
+    },
+    {
+        "name": "Air Asia",
+        "image": "../images/air-asia1.png",
+        "id": "AA006",
+        "stops": "Non Stop",
+        "arrival_time": [
+            "8:30 AM"
+        ],
+        "departure_time": [
+            "11:00 PM"
+        ],
+        "source": [
+            "mumbai"
+        ],
+        "destination": [
+            "chennai"
+        ],
+        "price": 8000,
+        "duration": "2.5"
+    },
+    {
+        "name": "Air Asia",
+        "image": "../images/air-asia1.png",
+        "id": "AA007",
+       "stops": "1 Stop",
+        "arrival_time": [
+            "9:30 AM",
+            "11:30 AM"
+        ],
+        "departure_time": [
+            "12:00 AM",
+            "3:00 PM"
+        ],
+        "source": [
+            "chennai",
+            "banglore"
+        ],
+        "destination": [
+            "banglore",
+            "mumbai"
+        ],
+        "price": 18000,
+        "duration": "3"
+    },
+    {
+        "name": "Air Asia",
+        "image": "../images/air-asia1.png",
+        "id": "AA008",
+        "stops": "Non Stop",
+        "arrival_time": [
+            "8:30 AM"
+        ],
+        "departure_time": [
+            "2:00 PM"
+        ],
+        "source": [
+            "mumbai"
+        ],
+        "destination": [
+            "chennai"
+        ],
+        "price": 12000,
+        "duration": "5.5"
+    },
+    {
+        "name": "Air Asia",
+        "image": "../images/air-asia1.png",
+        "id": "AA009",
+       "stops": "1 Stop",
+        "arrival_time": [
+            "10:30 AM",
+            "12:30 PM"
+        ],
+        "departure_time": [
+            "1:00 PM",
+            "3:00 PM"
+        ],
+        "source": [
+            "chennai",
+            "banglore"
+        ],
+        "destination": [
+            "banglore",
+            "mumbai"
+        ],
+        "price": 10000,
+        "duration": "2"
+    },
+    {
+        "name": "Air Asia",
+        "image": "../images/air-asia1.png",
+        "id": "AA010",
+        "stops": "Non Stop",
+        "arrival_time": [
+            "12:30 pM"
+        ],
+        "departure_time": [
+            "3:00 PM"
+        ],
+        "source": [
+            "hyderabad"
+        ],
+        "destination": [
+            "banglore"
+        ],
+        "price": 8000,
+        "duration": "2.5"
+    },
+    {
+        "name": "Air India",
+        "image": "../images/air-india.png",
+        "id": "AI001",
+        "stops": "Non Stop",
+        "arrival_time": [
+            "6:30 AM"
+        ],
+        "departure_time": [
+            "9:00 AM"
+        ],
+        "source": [
+            "hyderabad"
+        ],
+        "destination": [
+            "mumbai"
+        ],
+        "price": 9000,
+        "duration": "2.5"
+    },
+    {
+        "name": "Air India",
+        "image": "../images/air-india.png",
+        "id": "AI002",
+       "stops": "1 Stop",
+        "arrival_time": [
+            "3:30 PM",
+            "5:30 PM"
+        ],
+        "departure_time": [
+            "6:00 PM",
+            "9:00 PM"
+        ],
+        "source": [
+            "hyderabad",
+            "banglore"
+        ],
+        "destination": [
+            "banglore",
+            "mumbai"
+        ],
+        "price": 9000,
+        "duration": "3"
+    },
+    {
+        "name": "Air India",
+        "image": "../images/air-india.png",
+        "id": "AI003",
+        "stops": "Non Stop",
+        "arrival_time": [
+            "9:30 AM"
+        ],
+        "departure_time": [
+            "12:00 PM"
+        ],
+        "source": [
+            "chennai"
+        ],
+        "destination": [
+            "banglore"
+        ],
+        "price": 10000,
+        "duration": "2.5"
+    },
+    {
+        "name": "Air India",
+        "image": "../images/air-india.png",
+        "id": "AI004",
+       "stops": "1 Stop",
+        "arrival_time": [
+            "10:30 AM",
+            "12:30 PM"
+        ],
+        "departure_time": [
+            "1:00 PM",
+            "3:00 PM"
+        ],
+        "source": [
+            "mumbai",
+            "banglore"
+        ],
+        "destination": [
+            "banglore",
+            "chennai"
+        ],
+        "price": 14000,
+        "duration": "2"
+    },
+    {
+        "name": "Air India",
+        "image": "../images/air-india.png",
+        "id": "AI005",
+        "stops": "Non Stop",
+        "arrival_time": [
+            "9:30 AM"
+        ],
+        "departure_time": [
+            "12:00 PM"
+        ],
+        "source": [
+            "banglore"
+        ],
+        "destination": [
+            "hyderabad"
+        ],
+        "price": 9000,
+        "duration": "2.5"
+    },
+    {
+        "name": "Air India",
+        "image": "../images/air-india.png",
+        "id": "AI006",
+        "stops": "Non Stop",
+        "arrival_time": [
+            "5:30 AM"
+        ],
+        "departure_time": [
+            "8:00 AM"
+        ],
+        "source": [
+            "hyderabad"
+        ],
+        "destination": [
+            "mumbai"
+        ],
+        "price": 4000,
+        "duration": "2.5"
+    },
+    {
+        "name": "Air India",
+        "image": "../images/air-india.png",
+        "id": "AI007",
+       "stops": "1 Stop",
+        "arrival_time": [
+            "4:30 PM",
+            "5:30 PM"
+        ],
+        "departure_time": [
+            "5:00 PM",
+            "9:00 PM"
+        ],
+        "source": [
+            "mumbai",
+            "banglore"
+        ],
+        "destination": [
+            "banglore",
+            "hyderabad"
+        ],
+        "price": 9000,
+        "duration": "4"
+    },
+    {
+        "name": "Air India",
+        "image": "../images/air-india.png",
+        "id": "AI008",
+        "stops": "Non Stop",
+        "arrival_time": [
+            "8:30 AM"
+        ],
+        "departure_time": [
+            "11:00 PM"
+        ],
+        "source": [
+            "banglore"
+        ],
+        "destination": [
+            "chennai"
+        ],
+        "price": 20000,
+        "duration": "2.5"
+    },
+    {
+        "name": "Air India",
+        "image": "../images/air-india.png",
+        "id": "AI009",
+       "stops": "1 Stop",
+        "arrival_time": [
+            "10:30 AM",
+            "12:30 PM"
+        ],
+        "departure_time": [
+            "1:00 PM",
+            "3:00 PM"
+        ],
+        "source": [
+            "mumbai",
+            "banglore"
+        ],
+        "destination": [
+            "banglore",
+            "chennai"
+        ],
+        "price": 4000,
+        "duration": "2"
+    },
+    {
+        "name": "Air India",
+        "image": "../images/air-india.png",
+        "id": "AI010",
+        "stops": "Non Stop",
+        "arrival_time": [
+            "7:30 AM"
+        ],
+        "departure_time": [
+            "1:00 PM"
+        ],
+        "source": [
+            "banglore"
+        ],
+        "destination": [
+            "hyderabad"
+        ],
+        "price": 9000,
+        "duration": "5.5"
+    },
+    {
+        "name": "Go First",
+        "image": "../images/go-first.png",
+        "id": "GF001",
+        "stops": "Non Stop",
+        "arrival_time": [
+            "6:30 AM"
+        ],
+        "departure_time": [
+            "9:00 AM"
+        ],
+        "source": [
+            "hyderabad"
+        ],
+        "destination": [
+            "mumbai"
+        ],
+        "price": 9000,
+        "duration": "2.5"
+    },
+    {
+        "name": "Go First",
+        "image": "../images/go-first.png",
+        "id": "GF002",
+       "stops": "1 Stop",
+        "arrival_time": [
+            "3:30 PM",
+            "5:30 PM"
+        ],
+        "departure_time": [
+            "6:00 PM",
+            "9:00 PM"
+        ],
+        "source": [
+            "hyderabad",
+            "banglore"
+        ],
+        "destination": [
+            "banglore",
+            "mumbai"
+        ],
+        "price": 6000,
+        "duration": "2.5"
+    },
+    {
+        "name": "Go First",
+        "image": "../images/go-first.png",
+        "id": "GF003",
+        "stops": "Non Stop",
+        "arrival_time": [
+            "9:30 AM"
+        ],
+        "departure_time": [
+            "12:00 PM"
+        ],
+        "source": [
+            "mumbai"
+        ],
+        "destination": [
+            "chennai"
+        ],
+        "price": 10000,
+        "duration": "2.5"
+    },
+    {
+        "name": "Go First",
+        "image": "../images/go-first.png",
+        "id": "GF004",
+       "stops": "1 Stop",
+        "arrival_time": [
+            "10:30 AM",
+            "12:30 PM"
+        ],
+        "departure_time": [
+            "1:00 PM",
+            "3:00 PM"
+        ],
+        "source": [
+            "mumbai",
+            "banglore"
+        ],
+        "destination": [
+            "banglore",
+            "chennai"
+        ],
+        "price": 16000,
+        "duration": "2.5"
+    },
+    {
+        "name": "Go First",
+        "image": "../images/go-first.png",
+        "id": "GF005",
+        "stops": "Non Stop",
+        "arrival_time": [
+            "9:30 AM"
+        ],
+        "departure_time": [
+            "12:00 PM"
+        ],
+        "source": [
+            "banglore"
+        ],
+        "destination": [
+            "hyderabad"
+        ],
+        "price": 9000,
+        "duration": "2.5"
+    },
+    {
+        "name": "Go First",
+        "image": "../images/go-first.png",
+        "id": "GF006",
+        "stops": "Non Stop",
+        "arrival_time": [
+            "4:30 AM"
+        ],
+        "departure_time": [
+            "8:00 AM"
+        ],
+        "source": [
+            "hyderabad"
+        ],
+        "destination": [
+            "chennai"
+        ],
+        "price": 4000,
+        "duration": "3.5"
+    },
+    {
+        "name": "Go First",
+        "image": "../images/go-first.png",
+        "id": "GF007",
+        "stops": "Non Stop",
+        "arrival_time": [
+            "5:30 AM"
+        ],
+        "departure_time": [
+            "7:00 AM"
+        ],
+        "source": [
+            "mumbai"
+        ],
+        "destination": [
+            "hyderabad"
+        ],
+        "price": 6000,
+        "duration": "1.5"
+    },
+    {
+        "name": "Go First",
+        "image": "../images/go-first.png",
+        "id": "GF008",
+        "stops": "Non Stop",
+        "arrival_time": [
+            "6:00 AM"
+        ],
+        "departure_time": [
+            "10:00 AM"
+        ],
+        "source": [
+            "hyderabad"
+        ],
+        "destination": [
+            "mumbai"
+        ],
+        "price": 8000,
+        "duration": "4"
+    },
+    {
+        "name": "Go First",
+        "image": "../images/go-first.png",
+        "id": "GF009",
+        "stops": "Non Stop",
+        "arrival_time": [
+            "8:30 AM"
+        ],
+        "departure_time": [
+            "11:00 AM"
+        ],
+        "source": [
+            "mumbai"
+        ],
+        "destination": [
+            "chennai"
+        ],
+        "price": 10000,
+        "duration": "2.5"
+    },
+    {
+        "name": "Go First",
+        "image": "../images/go-first.png",
+        "id": "GF010",
+        "stops": "Non Stop",
+        "arrival_time": [
+            "6:30 AM"
+        ],
+        "departure_time": [
+            "9:00 AM"
+        ],
+        "source": [
+            "chennai"
+        ],
+        "destination": [
+            "mumbai"
+        ],
+        "price": 7000,
+        "duration": "2.5"
+    },
+
+    {
+        "name": "SpiceJet",
+        "image": "../images/spiceject1.png",
+        "id": "SJ001",
+        "stops": "Non Stop",
+        "arrival_time": [
+            "6:30 AM"
+        ],
+        "departure_time": [
+            "9:00 AM"
+        ],
+        "source": [
+            "hyderabad"
+        ],
+        "destination": [
+            "mumbai"
+        ],
+        "price": 9000,
+        "duration": "2.5"
+    },
+    {
+        "name": "SpiceJet",
+        "image": "../images/spiceject1.png",
+        "id": "SJ002",
+       "stops": "1 Stop",
+        "arrival_time": [
+            "3:30 PM",
+            "5:30 PM"
+        ],
+        "departure_time": [
+            "6:00 PM",
+            "9:00 PM"
+        ],
+        "source": [
+            "hyderabad",
+            "banglore"
+        ],
+        "destination": [
+            "banglore",
+            "mumbai"
+        ],
+        "price": 9000,
+        "duration": "2.5"
+    },
+    {
+        "name": "SpiceJet",
+        "image": "../images/spiceject1.png",
+        "id": "SJ003",
+        "stops": "Non Stop",
+        "arrival_time": [
+            "9:30 AM"
+        ],
+        "departure_time": [
+            "12:00 PM"
+        ],
+        "source": [
+            "mumbai"
+        ],
+        "destination": [
+            "chennai"
+        ],
+        "price": 10000,
+        "duration": "2.5"
+    },
+    {
+        "name": "SpiceJet",
+        "image": "../images/spiceject1.png",
+        "id": "SJ004",
+       "stops": "1 Stop",
+        "arrival_time": [
+            "10:30 AM",
+            "12:30 PM"
+        ],
+        "departure_time": [
+            "1:00 PM",
+            "3:00 PM"
+        ],
+        "source": [
+            "mumbai",
+            "banglore"
+        ],
+        "destination": [
+            "banglore",
+            "chennai"
+        ],
+        "price": 14000,
+        "duration": "2.5"
+    },
+    {
+        "name": "SpiceJet",
+        "image": "../images/spiceject1.png",
+        "id": "SJ005",
+        "stops": "Non Stop",
+        "arrival_time": [
+            "9:30 AM"
+        ],
+        "departure_time": [
+            "12:00 PM"
+        ],
+        "source": [
+            "banglore"
+        ],
+        "destination": [
+            "hyderabad"
+        ],
+        "price": 9000,
+        "duration": "2.5"
+    },
+    {
+        "name": "SpiceJet",
+        "image": "../images/spiceject1.png",
+        "id": "SJ006",
+        "stops": "Non Stop",
+        "arrival_time": [
+            "6:30 AM"
+        ],
+        "departure_time": [
+            "9:00 PM"
+        ],
+        "source": [
+            "chennai"
+        ],
+        "destination": [
+            "mumbai"
+        ],
+        "price": 12000,
+        "duration": "2.5"
+    },
+    {
+        "name": "SpiceJet",
+        "image": "../images/spiceject1.png",
+        "id": "SJ007",
+        "stops": "Non Stop",
+        "arrival_time": [
+            "9:30 AM"
+        ],
+        "departure_time": [
+            "12:00 PM"
+        ],
+        "source": [
+            "chennai"
+        ],
+        "destination": [
+            "banglore"
+        ],
+        "price": 7000,
+        "duration": "2.5"
+    },
+    {
+        "name": "SpiceJet",
+        "image": "../images/spiceject1.png",
+        "id": "SJ008",
+        "stops": "Non Stop",
+        "arrival_time": [
+            "8:30 AM"
+        ],
+        "departure_time": [
+            "11:00 PM"
+        ],
+        "source": [
+            "mumbai"
+        ],
+        "destination": [
+            "chennai"
+        ],
+        "price": 3000,
+        "duration": "2.5"
+    },
+    {
+        "name": "SpiceJet",
+        "image": "../images/spiceject1.png",
+        "id": "SJ009",
+        "stops": "Non Stop",
+        "arrival_time": [
+            "9:30 AM"
+        ],
+        "departure_time": [
+            "12:00 PM"
+        ],
+        "source": [
+            "mumbai"
+        ],
+        "destination": [
+            "hyderabad"
+        ],
+        "price": 12000,
+        "duration": "2.5"
+    },
+    {
+        "name": "SpiceJet",
+        "image": "../images/spiceject1.png",
+        "id": "SJ010",
+        "stops": "Non Stop",
+        "arrival_time": [
+            "9:30 AM"
+        ],
+        "departure_time": [
+            "12:00 PM"
+        ],
+        "source": [
+            "hyderabad"
+        ],
+        "destination": [
+            "mumbai"
+        ],
+        "price": 10000,
+        "duration": "2.5"
+    },
+    {
+        "name": "SpiceJet",
+        "image": "../images/spiceject1.png",
+        "id": "SJ010",
+        "stops": "Non Stop",
+        "arrival_time": [
+            "9:30 AM"
+        ],
+        "departure_time": [
+            "12:00 PM"
+        ],
+        "source": [
+            "chennai"
+        ],
+        "destination": [
+            "banglore"
+        ],
+        "price": 5000,
+        "duration": "2.5"
+    },
+    {
+        "name": "SpiceJet",
+        "image": "../images/spiceject1.png",
+        "id": "SJ003",
+        "stops": "Non Stop",
+        "arrival_time": [
+            "8:30 AM"
+        ],
+        "departure_time": [
+            "12:00 PM"
+        ],
+        "source": [
+            "chennai"
+        ],
+        "destination": [
+            "banglore"
+        ],
+        "price": 12000,
+        "duration": "3.5"
+    },
+    {
+        "name": "Indigo",
+        "image": "../images/indigo1.png",
+        "id": "IN001",
+        "stops": "Non Stop",
+        "arrival_time": [
+            "6:30 AM"
+        ],
+        "departure_time": [
+            "9:00 AM"
+        ],
+        "source": [
+            "hyderabad"
+        ],
+        "destination": [
+            "mumbai"
+        ],
+        "price": 9000,
+        "duration": "2.5"
+    },
+    {
+        "name": "Indigo",
+        "image": "../images/indigo1.png",
+        "id": "IN002",
+       "stops": "1 Stop",
+        "arrival_time": [
+            "3:30 PM",
+            "5:30 PM"
+        ],
+        "departure_time": [
+            "6:00 PM",
+            "9:00 PM"
+        ],
+        "source": [
+            "hyderabad",
+            "banglore"
+        ],
+        "destination": [
+            "banglore",
+            "mumbai"
+        ],
+        "price": 6000,
+        "duration": "2.5"
+    },
+    {
+        "name": "Indigo",
+        "image": "../images/indigo1.png",
+        "id": "IN003",
+        "stops": "Non Stop",
+        "arrival_time": [
+            "9:30 AM"
+        ],
+        "departure_time": [
+            "12:00 PM"
+        ],
+        "source": [
+            "mumbai"
+        ],
+        "destination": [
+            "chennai"
+        ],
+        "price": 10000,
+        "duration": "2.5"
+    },
+    {
+        "name": "Indigo",
+        "image": "../images/indigo1.png",
+        "id": "IN004",
+       "stops": "1 Stop",
+        "arrival_time": [
+            "10:30 AM",
+            "12:30 PM"
+        ],
+        "departure_time": [
+            "1:00 PM",
+            "3:00 PM"
+        ],
+        "source": [
+            "mumbai",
+            "banglore"
+        ],
+        "destination": [
+            "banglore",
+            "chennai"
+        ],
+        "price": 16000,
+        "duration": "1.5"
+    },
+    {
+        "name": "Indigo",
+        "image": "../images/indigo1.png",
+        "id": "IN005",
+        "stops": "Non Stop",
+        "arrival_time": [
+            "9:30 AM"
+        ],
+        "departure_time": [
+            "12:00 PM"
+        ],
+        "source": [
+            "banglore"
+        ],
+        "destination": [
+            "hyderabad"
+        ],
+        "price": 9000,
+        "duration": "2.5"
+    },
+    {
+        "name": "Indigo",
+        "image": "../images/indigo1.png",
+        "id": "IN006",
+        "stops": "Non Stop",
+        "arrival_time": [
+            "8:30 AM"
+        ],
+        "departure_time": [
+            "12:00 PM"
+        ],
+        "source": [
+            "chennai"
+        ],
+        "destination": [
+            "banglore"
+        ],
+        "price": 13000,
+        "duration": "3.5"
+    },
+    {
+        "name": "Indigo",
+        "image": "../images/indigo1.png",
+        "id": "IN007",
+        "stops": "Non Stop",
+        "arrival_time": [
+            "10:30 AM"
+        ],
+        "departure_time": [
+            "1:00 PM"
+        ],
+        "source": [
+            "banglore"
+        ],
+        "destination": [
+            "chennai"
+        ],
+        "price": 14000,
+        "duration": "2.5"
+    },
+    {
+        "name": "Indigo",
+        "image": "../images/indigo1.png",
+        "id": "IN008",
+        "stops": "Non Stop",
+        "arrival_time": [
+            "6:30 AM"
+        ],
+        "departure_time": [
+            "9:00 AM"
+        ],
+        "source": [
+            "mumbai"
+        ],
+        "destination": [
+            "hyderabad"
+        ],
+        "price": 15000,
+        "duration": "2.5"
+    },
+    {
+        "name": "Indigo",
+        "image": "../images/indigo1.png",
+        "id": "IN009",
+        "stops": "Non Stop",
+        "arrival_time": [
+            "9:30 AM"
+        ],
+        "departure_time": [
+            "11:00 AM"
+        ],
+        "source": [
+            "mumbai"
+        ],
+        "destination": [
+            "banglore"
+        ],
+        "price": 24000,
+        "duration": "1.5"
+    },
+    {
+        "name": "Indigo",
+        "image": "../images/indigo1.png",
+        "id": "IN010",
+        "stops": "Non Stop",
+        "arrival_time": [
+            "9:30 AM"
+        ],
+        "departure_time": [
+            "12:00 AM"
+        ],
+        "source": [
+            "mumbai"
+        ],
+        "destination": [
+            "chennai"
+        ],
+        "price": 9000,
+        "duration": "2.5"
+    },
+    {
+        "name": "Indigo",
+        "image": "../images/indigo1.png",
+        "id": "IN011",
+        "stops": "Non Stop",
+        "arrival_time": [
+            "9:30 AM"
+        ],
+        "departure_time": [
+            "11:00 AM"
+        ],
+        "source": [
+            "banglore"
+        ],
+        "destination": [
+            "chennai"
+        ],
+        "price": 6000,
+        "duration": "1.5"
+    },
+    {
+        "locations": [
+            "chennai",
+            "mumbai",
+            "hyderabad",
+            "banglore"
+        ]
+    }
+]
