@@ -23,7 +23,7 @@
         "name": "Air Asia",
         "image": "../images/air-asia1.png",
         "id": "AA002",
-       "stops": "1 Stop",
+        "stops": "1 Stop",
         "arrival_time": [
             "7:30 AM",
             "9:30 AM"
@@ -67,7 +67,7 @@
         "name": "Air Asia",
         "image": "../images/air-asia1.png",
         "id": "AA004",
-       "stops": "1 Stop",
+        "stops": "1 Stop",
         "arrival_time": [
             "10:30 AM",
             "12:30 PM"
@@ -125,13 +125,18 @@
             "chennai"
         ],
         "price": 8000,
+        "days": [
+            1,
+            4,
+            5
+        ],
         "duration": "2.5"
     },
     {
         "name": "Air Asia",
         "image": "../images/air-asia1.png",
         "id": "AA007",
-       "stops": "1 Stop",
+        "stops": "1 Stop",
         "arrival_time": [
             "9:30 AM",
             "11:30 AM"
@@ -175,7 +180,7 @@
         "name": "Air Asia",
         "image": "../images/air-asia1.png",
         "id": "AA009",
-       "stops": "1 Stop",
+        "stops": "1 Stop",
         "arrival_time": [
             "10:30 AM",
             "12:30 PM"
@@ -239,7 +244,7 @@
         "name": "Air India",
         "image": "../images/air-india.png",
         "id": "AI002",
-       "stops": "1 Stop",
+        "stops": "1 Stop",
         "arrival_time": [
             "3:30 PM",
             "5:30 PM"
@@ -283,7 +288,7 @@
         "name": "Air India",
         "image": "../images/air-india.png",
         "id": "AI004",
-       "stops": "1 Stop",
+        "stops": "1 Stop",
         "arrival_time": [
             "10:30 AM",
             "12:30 PM"
@@ -347,7 +352,7 @@
         "name": "Air India",
         "image": "../images/air-india.png",
         "id": "AI007",
-       "stops": "1 Stop",
+        "stops": "1 Stop",
         "arrival_time": [
             "4:30 PM",
             "5:30 PM"
@@ -391,7 +396,7 @@
         "name": "Air India",
         "image": "../images/air-india.png",
         "id": "AI009",
-       "stops": "1 Stop",
+        "stops": "1 Stop",
         "arrival_time": [
             "10:30 AM",
             "12:30 PM"
@@ -455,7 +460,7 @@
         "name": "Go First",
         "image": "../images/go-first.png",
         "id": "GF002",
-       "stops": "1 Stop",
+        "stops": "1 Stop",
         "arrival_time": [
             "3:30 PM",
             "5:30 PM"
@@ -499,7 +504,7 @@
         "name": "Go First",
         "image": "../images/go-first.png",
         "id": "GF004",
-       "stops": "1 Stop",
+        "stops": "1 Stop",
         "arrival_time": [
             "10:30 AM",
             "12:30 PM"
@@ -639,7 +644,6 @@
         "price": 7000,
         "duration": "2.5"
     },
-
     {
         "name": "SpiceJet",
         "image": "../images/spiceject1.png",
@@ -664,7 +668,7 @@
         "name": "SpiceJet",
         "image": "../images/spiceject1.png",
         "id": "SJ002",
-       "stops": "1 Stop",
+        "stops": "1 Stop",
         "arrival_time": [
             "3:30 PM",
             "5:30 PM"
@@ -708,7 +712,7 @@
         "name": "SpiceJet",
         "image": "../images/spiceject1.png",
         "id": "SJ004",
-       "stops": "1 Stop",
+        "stops": "1 Stop",
         "arrival_time": [
             "10:30 AM",
             "12:30 PM"
@@ -912,7 +916,7 @@
         "name": "Indigo",
         "image": "../images/indigo1.png",
         "id": "IN002",
-       "stops": "1 Stop",
+        "stops": "1 Stop",
         "arrival_time": [
             "3:30 PM",
             "5:30 PM"
@@ -956,7 +960,7 @@
         "name": "Indigo",
         "image": "../images/indigo1.png",
         "id": "IN004",
-       "stops": "1 Stop",
+        "stops": "1 Stop",
         "arrival_time": [
             "10:30 AM",
             "12:30 PM"

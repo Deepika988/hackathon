@@ -1,24 +1,39 @@
-body{
+body {
     font-family: 'Work Sans', sans-serif;
     background-color: #F2F2F2;
+    margin: 0 auto;
+    max-width: 1518px;
 }
-.header-tab{
+
+/* Header CSS */
+.header-tab {
+    /* justify-content: center; */
+    align-items: center;
+    gap: 10px;
+}
+.back_arrow{
+    display: none;
+    flex: 1;
+}
+
+.header-tab-wrapper{
     display: flex;
     justify-content: center;
-    align-items: center;
-    gap: 10px;;
+    flex: 24;
 }
-.logo-img{
+.logo-img {
     width: 40px;
     height: 40px;
 }
-.website-name{
+
+.website-name {
     color: #034f84;
     margin-top: 0;
     margin-bottom: 10px;
 }
-.body-content{
-    display: flex;
+
+/* Body Content CSS */
+.body-content {
     align-items: center;
     justify-content: right;
     height: fit-content;
@@ -27,107 +42,126 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
-.fill-details{
-    display: flex;
+
+/* Form filling CSS */
+.fill-details {
     flex-direction: column;
     gap: 1.25rem;
     width: 450px;
     height: fit-content;
     border-radius: 1.875rem;
     padding: 15px;
-    /* background-color:rgba(255,255,255,0.9); */
     background-color: #034f84;
 }
-.form-heading{
+
+.form-heading {
     color: #ffffff;
+    font-weight: 600;
+    text-align: center;
 }
-.input-data{
-    display: flex;
+
+.input-data {
     gap: 10px;
     flex-direction: column;
 }
-.input-fields{
+
+.input-fields {
     background-color: #ffffff;
-    border-radius:1.875rem;
+    border-radius: 1.875rem;
     padding: 15px;
     border: 1px solid #f7f7f7;
 }
-.input-data-fields{
+
+.input-data-fields {
     display: flex;
     gap: 20px;
 }
-.align-center{
+
+.align-center {
     text-align: center;
     font-weight: 600;
 }
-.input-trip{
-    display: flex;
+
+.input-trip {
     gap: 50px;
     justify-content: center;
 }
-.input-trip-wrapper{
-    display: flex;
+
+.input-trip-wrapper {
     color: black;
     flex: 1;
 }
-#round-trip-box{
+
+#round-trip-box {
     display: none;
 }
-.flex-part{
-    flex: 1;
-}
-.label-color{
+
+.label-color {
     font-size: 14px;
     color: #ffffff;
+    font-weight: 500;
 }
-.label-color2{
+
+.label-color2 {
     font-style: 14px;
     color: black;
+    font-weight: 500;
 }
-.search-btn{
+
+.search-btn {
     cursor: pointer;
     background-color: rgb(248, 209, 17);
     color: #ffffff;
     font-weight: 600;
     font-size: 20px;
 }
-.search-btn:hover{
-    background-color:rgba(9, 73, 249, 0.7);
+
+.search-btn:hover {
+    background-color: rgba(9, 73, 249, 0.7);
 }
-.uppercase-convert{
+
+.uppercase-convert {
     text-transform: uppercase;
 }
-.flight-search-results{
+
+/* Flight Search Page CSS */
+.flight-search-results {
     display: none;
     padding-top: 20px;
     gap: 30px;
     flex-direction: column;
 }
-.display-input-data{
+
+/* Form Data Display */
+.display-input-data {
     display: flex;
     flex-direction: row;
-    gap:20px;   
+    gap: 20px;
 }
-.search-bar{
+
+.search-bar {
     display: flex;
     flex-direction: row;
     gap: 20px;
     justify-content: center;
 }
-.input-search{
+
+.input-search {
     width: 45%;
     border: 1px solid #034f84;
 }
-.fa-arrows-alt-h{
+
+.fa-arrows-alt-h {
     align-self: center;
 }
-.display-fields{
+
+.display-fields {
     display: flex;
     flex-direction: column;
     gap: 15px;
     border: none;
     border-radius: 10px;
-    background-color:  #034f84;
+    background-color: #034f84;
     flex: 1;
     color: #ffffff;
     justify-content: center;
@@ -135,85 +169,111 @@ body{
     font-weight: 600;
     padding: 10px 0px;
 }
-.display-fields p{
+
+.display-fields p {
     margin: 0;
     flex: 1;
 }
-.data-fields{
+
+.data-fields {
     flex: 1;
     border: none;
     font-weight: 500;
     font-size: 16px;
-    background-color:  #034f84;
+    background-color: #034f84;
     color: #ffffff;
     text-align: center;
 }
-.search-results-body{
+
+#datefield_div {
+    display: none;
+}
+
+.search-results-body {
     display: flex;
     gap: 20px;
 }
-.filters{
-    background-color:#ffffff ;
+
+/* Filters Tab CSS*/
+.filters {
+    background-color: #ffffff;
     flex: 1;
     height: fit-content;
     border-radius: 4px;
 }
-.filter-text{
+
+.filter-text {
     border-bottom: 1px solid rgb(192, 192, 192, .3);
     padding-left: 20px;
     padding-right: 20px;
 }
+
 .filter-text .filter-text-element {
     flex: 1;
     font-weight: 600;
 }
-.summary-element{
+
+.summary-element {
     border-bottom: 1px solid rgb(192, 192, 192, .3);
     padding: 20px 20px 20px 20px;
-}.summary-content{
+}
+
+.summary-content {
     padding-top: 10px;
 }
-.fa-angle-down{
-    cursor: pointer;
+
+.fa-angle-down:hover{
+    color: blue;
 }
-.label-data{
+.label-data {
     flex: 24;
 }
-.fa-angle-down{
+
+.fa-angle-down {
     flex: 1;
-    cursor: pointer;  
+    cursor: pointer;
 }
+
 details[open] .fa-angle-down {
     transform: rotate(180deg);
 }
-.d-flex{
-    display: flex;
-}
-.flights-information{
-    display: flex;
+
+.flights-information {
     flex-direction: column;
     gap: 20px;
     flex: 4;
 }
-.one-flight-info{
+
+/* JSON Data Css*/
+.one-flight-info {
     flex-wrap: wrap;
     border-radius: 4px;
     display: flex;
     background-color: #ffffff;
+    box-shadow: 0px 2px 4px #463F5F1A;
 }
+
 .one-flight-info:hover {
-    transform: scale(1.05);
+    transform: scale(1.01);
 }
-.flight-data{
+
+.flight-data {
     flex: 1;
     text-align: center;
     align-self: center;
 }
-.flight-data-img{
+
+.flight-data-img {
     width: 50px;
-    height:50px;
+    height: 50px;
 }
-.flight-data-button{
+.flight-brand-name{
+    font-weight: 600;
+}
+.number_stops{
+    font-weight: 600;
+}
+.flight-data-button {
     background-color: rgba(9, 73, 249, 0.7);
     color: #ffffff;
     border: none;
@@ -222,3 +282,63 @@ details[open] .fa-angle-down {
     cursor: pointer;
 }
 
+/* Utility Class CSS */
+.d-flex {
+    display: flex;
+}
+
+.footer-section{
+    margin: 0;
+    background-color: #034f84;
+    text-align: center;
+    color: #ffffff;
+    padding: 10px;
+    font-weight: 600;
+}
+.footer-section p{
+   margin: 0;
+}
+
+
+/* Media Queries */
+@media (max-width: 1000px) {
+
+    .body-content {
+        align-items: center;
+        justify-content: center;
+        height: fit-content;
+        background-image: url("../images/flight.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .display-input-data {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+    }
+    .search-results-body {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .flights-information {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .one-flight-info {
+        border-radius: 4px;
+        display: flex;
+        flex: 40%;
+        flex-direction: column;
+        background-color: #ffffff;
+    }
+    
+
+}
+@media (max-width: 2150px){
+    body {
+        max-width: 2146px;
+    }
+}
